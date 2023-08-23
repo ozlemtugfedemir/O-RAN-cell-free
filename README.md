@@ -1,16 +1,17 @@
-Cell-Free Massive MIMO in O-RAN: Energy-Aware Joint Orchestration of Cloud, Fronthaul, and Radio ResourcesChannel Estimation Necessary to Select Phase-Shifts for RIS-Assisted Massive MIMO?
+Cell-Free Massive MIMO in O-RAN: Energy-Aware Joint Orchestration of Cloud, Fronthaul, and Radio Resources
 ==================
 
 This is a code package is related to the following scientific article:
 
-Özlem Tuğfe Demir, Meysam Masoudi, Emil Björnson, and Cicek Cavdar “[Cell-Free Massive MIMO in O-RAN: Energy-Aware Joint Orchestration of Cloud, Fronthaul, and Radio Resources?](https://arxiv.org/abs/2301.06166)),” IEEE Journal on Selected Areas in Communications, to appear.
+Özlem Tuğfe Demir, Meysam Masoudi, Emil Björnson, and Cicek Cavdar “[Cell-Free Massive MIMO in O-RAN: Energy-Aware Joint Orchestration of Cloud, Fronthaul, and Radio Resources](https://arxiv.org/abs/2301.06166)),” IEEE Journal on Selected Areas in Communications, to appear.
 
 The package contains a simulation environment, based on Matlab, that reproduces some of the numerical results and figures in the article. We encourage you to also perform reproducible research!
 
 
 ## Abstract of Article
 
-Reconfigurable intelligent surfaces (RISs) consist of many passive elements of metamaterials whose impedance can be controllable to change the characteristics of wireless signals impinging on them. Channel estimation is a critical task when it comes to the control of a large RIS when having a channel with a large number of multipath components. In this paper, we derive Bayesian channel estimators for two RIS-assisted massive multiple-input multiple-output (MIMO) configurations: i) the short-term RIS configuration based on the instantaneous channel estimates; ii) the long-term RIS configuration based on the channel statistics. The proposed methods exploit spatial correlation characteristics at both the base station and the planar RISs, and other statistical characteristics of multi-specular fading in a mobile environment. Moreover, a novel heuristic for phase-shift selection at the RISs is developed. A computationally efficient fixed-point algorithm, which solves the max-min fairness power control optimally, is proposed. Simulation results demonstrate that the proposed uplink RIS-aided framework improves the spectral efficiency of the cell-edge mobile user equipments substantially in comparison to a conventional single-cell massive MIMO system. The impact of several channel effects are studied to gain insight about when the channel estimation, i.e., the short-term configuration, is preferable in comparison to the long-term RIS configuration to boost the spectral efficiency.
+For the energy-efficient deployment of cell-free massive MIMO functionality in a practical wireless network, the end-to-end (from radio site to the cloud) energy-aware operation is essential. In line with the cloudification and virtualization in the open radio access networks (O-RAN), it is indisputable to envision prospective cell-free infrastructure on top of the O-RAN architecture. In this paper, we explore the performance and power consumption of cell-free massive MIMO technology in comparison with traditional small-cell systems, in the virtualized O-RAN architecture. We compare two different functional split options and different resource orchestration mechanisms. In the end-to-end orchestration scheme, we aim to minimize the end-to-end power consumption by jointly allocating the radio, optical fronthaul, and virtualized cloud processing resources. We compare end-to-end orchestration with two other schemes: i) ``radio-only'' where radio resources are optimized independently from the cloud and ii) ``local cloud coordination'' where orchestration is only allowed among a local cluster of radio units. We develop several algorithms to solve the end-to-end power minimization and sum spectral efficiency maximization problems. The numerical results demonstrate that end-to-end resource allocation with fully virtualized fronthaul and cloud resources provides a substantial additional power saving than the other resource orchestration schemes.
+
 
 ## Content of Code Package
 
