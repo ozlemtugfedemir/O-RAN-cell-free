@@ -3,7 +3,7 @@ Cell-Free Massive MIMO in O-RAN: Energy-Aware Joint Orchestration of Cloud, Fron
 
 This code package contains a simulation environment, based on Matlab, that reproduces some of the numerical results and figures in the article
 
-Özlem Tuğfe Demir, Meysam Masoudi, Emil Björnson, and Cicek Cavdar “[Cell-Free Massive MIMO in O-RAN: Energy-Aware Joint Orchestration of Cloud, Fronthaul, and Radio Resources](https://arxiv.org/abs/2301.06166)),” IEEE Journal on Selected Areas in Communications, to appear.
+Özlem Tuğfe Demir, Meysam Masoudi, Emil Björnson, and Cicek Cavdar “[Cell-Free Massive MIMO in O-RAN: Energy-Aware Joint Orchestration of Cloud, Fronthaul, and Radio Resources](https://arxiv.org/abs/2301.06166)),” IEEE Journal on Selected Areas in Communications, vol. 42, no. 2, pp. 356-372, Feb. 2024, doi: 10.1109/JSAC.2023.3336187.
 
 ## Abstract of Article
 
