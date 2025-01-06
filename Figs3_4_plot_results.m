@@ -1,4 +1,4 @@
-scen = 1:30;
+scen = [ 1:5 25:29 41:45 51:55 91:95 101:105 ];
 sinrlength = 40;
 nbrOfRuns = length(scen);
 totPow1 = zeros(nbrOfRuns,sinrlength);
