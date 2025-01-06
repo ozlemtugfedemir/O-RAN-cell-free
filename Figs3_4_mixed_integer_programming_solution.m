@@ -1,4 +1,5 @@
-for seedd = 1:30
+for seedd = [ 1:5 25:29 41:45 51:55 91:95 101:105 ]
+
     seedd
     rng(seedd)
 
