@@ -418,3 +418,5 @@ for sss = 1:numberSetup
 
 
 end
+
+save JOnlySumSE_sim_72.mat
