@@ -13,7 +13,7 @@ K = 16;
 %Number of DUs
 W = 40;
 
-sumSEpen = 25;
+sumSEpen = 5;
 SEAll = 4;
 
 Axx = zeros(K,L,numberSetup);
@@ -440,4 +440,10 @@ for sss = 1:numberSetup
 
 
 
+end
+
+if sumSEpen==5
+    save('J_sumSEpen5_72.mat')
+elseif sumSEpen==50
+    save('J_sumSE_pen50_72.mat')
 end
