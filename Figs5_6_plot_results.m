@@ -29,7 +29,7 @@ for nnn = 1:nbrOfRuns
 
         else
             load(strcat('J_SE2_K16_sim_8_',num2str(seedd),'.mat'));
-            totPow1(nnn,xxx,1) = TotalPower(1,2);
+            totPow1(nnn,xxx,1) = TotalPower(1,:);
 
         end
         if isnan(totPow1(nnn,xxx,1)) || (totPow1(nnn,xxx,1)==0)
@@ -187,7 +187,7 @@ for nnn = 1:nbrOfRuns
 
         else
             load(strcat('J_SE2_K16_sim_72_',num2str(seedd),'.mat'));
-            totPow1(nnn,xxx,2) = TotalPower(1,2);
+            totPow1(nnn,xxx,2) = TotalPower(1,:);
 
         end
         
