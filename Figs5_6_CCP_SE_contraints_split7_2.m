@@ -365,5 +365,5 @@ for seedd = 1:30
 
 
     end
-    save(strcat('J_SE_sim_72_',num2str(seedd),'.mat'))
+    save(strcat('J_SE2_K',num2str(K),'_sim_72_',num2str(seedd),'.mat'))
 end
