@@ -28,7 +28,7 @@ for nnn = 1:nbrOfRuns
             totPow1(nnn,xxx,1) = TotalPower(1,:);
 
         else
-            load(strcat('J_SE_sim_8_',num2str(seedd),'.mat'));
+            load(strcat('J_SE2_K16_sim_8_',num2str(seedd),'.mat'));
             totPow1(nnn,xxx,1) = TotalPower(1,2);
 
         end
@@ -186,7 +186,7 @@ for nnn = 1:nbrOfRuns
             totPow1(nnn,xxx,2) = TotalPower(1,:);
 
         else
-            load(strcat('J_SE_sim_72_',num2str(seedd),'.mat'));
+            load(strcat('J_SE2_K16_sim_72_',num2str(seedd),'.mat'));
             totPow1(nnn,xxx,2) = TotalPower(1,2);
 
         end
