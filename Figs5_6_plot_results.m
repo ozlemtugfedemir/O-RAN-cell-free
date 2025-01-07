@@ -34,21 +34,14 @@ for nnn = 1:nbrOfRuns
         end
         if isnan(totPow1(nnn,xxx,1)) || (totPow1(nnn,xxx,1)==0)
         else
-            if xxx == 4
-                xx = Axx(:,:,2);
-                zz = Azz(:,2);
-                activeAPs = find(zz>0);
-                dd = Add(:,2);
-                ll = All(:,2);
-                rho = Arho(:,2);
-            else
-                xx = Axx;
-                zz = Azz;
-                activeAPs = find(zz>0);
-                dd = Add;
-                ll = All;
-                rho = Arho;
-            end
+           
+            xx = Axx;
+            zz = Azz;
+            activeAPs = find(zz>0);
+            dd = Add;
+            ll = All;
+            rho = Arho;
+            
 
                 
             for randomtrial = 1:5
@@ -197,21 +190,14 @@ for nnn = 1:nbrOfRuns
 
         if isnan(totPow1(nnn,xxx,2)) || (totPow1(nnn,xxx,2)==0)
         else
-            if xxx == 4
-                xx = Axx(:,:,2);
-                zz = Azz(:,2);
-                activeAPs = find(zz>0);
-                dd = Add(:,2);
-                ll = All(:,2);
-                rho = Arho(:,2);
-            else
-                xx = Axx;
-                zz = Azz;
-                activeAPs = find(zz>0);
-                dd = Add;
-                ll = All;
-                rho = Arho;
-            end
+            
+            xx = Axx;
+            zz = Azz;
+            activeAPs = find(zz>0);
+            dd = Add;
+            ll = All;
+            rho = Arho;
+            
 
            
             for randomtrial = 1:5
